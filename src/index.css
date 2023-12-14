@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=REM:wght@200&family=Roboto+Slab:wght@200&display=swap');
+
+:root {
+    --green-color: #5f6f52;
+    --sage-color: #A9B388;
+    --brown-color: #B99470;
+    --beige-color: #FEFAE0;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --transition: all 300ms ease-in-out;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: var(--black-color);
+}
+
+/* resets */
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    background-color: transparent;
+}
+
+img {
+    width: 100%;
+    display: block;
+
+}
+
+input {
+    border: none;
+    outline: 0;
+    font-family: inherit;
+    font-size: 1.6rem;
+}
+
+.resize-animation-stopper * {
+    animation: none !important;
+    transition: none !important;
+}
+
+/* backgrounds*/
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-sage {
+    background-color: var(--sage-color);
+}
+
+.bg-white {
+    background-color: var(--white-color);
+}
+
+.bg-brown {
+    background-color: var(--brown-color);
+}
+
+/* text colors */
+.text-black {
+    color: var(--black-color);
+}
+
+.text-white {
+    color: var(--white-color);
+}
+
+.text-green {
+    color: var(--green-color);
+}
+
+.text-beige {
+    color: var(--beige-color);
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+/* font weights */
+.fw-3 {
+    font-weight: 300;
+}
+.fw-4 {
+    font-weight: 400;
+}
+.fw-5 {
+    font-weight: 500;
+}
+.fw-6 {
+    font-weight: 600;
+}
+.fw-7 {
+    font-weight: 700;
+}
+.fw-8 {
+    font-weight: 800;
+}
+.fw-9 {
+    font-weight: 900;
+}
+
+/* font sizes */
+.fs-15{
+    font-size: 1.5rem;
+}
+.fs-16{
+    font-size: 1.6rem;
+}
+.fs-17{
+    font-size: 1.7rem;
+}
+.fs-18{
+    font-size: 1.8rem;
+}
+.fs-19{
+    font-size: 1.9rem;
+}
+.fs-20{
+    font-size: 2rem;
+}
+.fs-21{
+    font-size: 2.1rem;
+}
+.fs-22{
+    font-size: 2.2rem;
+}
+.fs-24{
+    font-size: 2.4rem;
+}
+.fs-26{
+    font-size: 2.6rem;
+}
+
+/* letter spacing */
+.ls-1 {
+    letter-spacing: 1px;
+}
+.ls-2 {
+    letter-spacing: 2px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+.flex-sb{
+    justify-content: center;
+}
+
+.flex-c{
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    
+}
+.container {
+    min-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.section-title h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 18px 0 24px 0;
+
+}
+

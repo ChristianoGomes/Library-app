@@ -1,0 +1,16 @@
+.header-content{
+    min-height: 75vh;
+    background: linear-gradient(rgba(95, 111, 82, 0.3), rgba(95, 111, 82, 0.5)), url("/Users/christianogomes/Portofolio projects/Book-Search/house-of-wisdom/src/Images/pexels-pixabay-159711.jpg") center/cover no-repeat;
+    flex-direction: column;
+}
+.header-title{
+    font-size: 4.2rem;
+}
+.header-text{
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.9;
+    max-width: 770px;
+    font-size: 3rem;
+    font-weight: 700;
+}
